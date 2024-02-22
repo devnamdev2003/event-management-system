@@ -1,0 +1,137 @@
+{
+    "categories": [
+        {
+            "name": "Technology",
+            "events": [
+                {
+                    "name": "Web Development Workshop",
+                    "start_date": "2024-02-25T08:00:00Z",
+                    "end_date": "2024-02-26T08:00:00Z",
+                    "priority": 1,
+                    "description": "A workshop on modern web development technologies.",
+                    "location": "Virtual",
+                    "organizer": "TechHub"
+                },
+                {
+                    "name": "Data Science Conference",
+                    "start_date": "2024-02-27T08:00:00Z",
+                    "end_date": "2024-02-28T08:00:00Z",
+                    "priority": 2,
+                    "description": "An international conference on data science and analytics.",
+                    "location": "Conference Center",
+                    "organizer": "DataLab"
+                },
+                {
+                    "name": "Cybersecurity Seminar",
+                    "start_date": "2024-03-01T08:00:00Z",
+                    "end_date": "2024-03-02T08:00:00Z",
+                    "priority": 3,
+                    "description": "A seminar discussing the latest trends in cybersecurity.",
+                    "location": "Tech Park",
+                    "organizer": "SecureTech"
+                }
+            ]
+        },
+        {
+            "name": "Arts & Culture",
+            "events": [
+                {
+                    "name": "Art Exhibition: Renaissance Revival",
+                    "start_date": "2024-03-03T08:00:00Z",
+                    "end_date": "2024-03-04T08:00:00Z",
+                    "priority": 1,
+                    "description": "An exhibition showcasing modern interpretations of Renaissance art.",
+                    "location": "Art Gallery",
+                    "organizer": "Cultural Society"
+                },
+                {
+                    "name": "Film Festival: World Cinema",
+                    "start_date": "2024-03-05T08:00:00Z",
+                    "end_date": "2024-03-06T08:00:00Z",
+                    "priority": 2,
+                    "description": "A festival featuring acclaimed films from around the globe.",
+                    "location": "Cinema Complex",
+                    "organizer": "Film Club"
+                },
+                {
+                    "name": "Literary Symposium: Poets of the 21st Century",
+                    "start_date": "2024-03-07T08:00:00Z",
+                    "end_date": "2024-03-08T08:00:00Z",
+                    "priority": 3,
+                    "description": "A symposium celebrating contemporary poetry and poets.",
+                    "location": "Public Library",
+                    "organizer": "Literary Society"
+                }
+            ]
+        },
+        {
+            "name": "Sports & Recreation",
+            "events": [
+                {
+                    "name": "Fitness Bootcamp",
+                    "start_date": "2024-03-09T08:00:00Z",
+                    "end_date": "2024-03-10T08:00:00Z",
+                    "priority": 1,
+                    "description": "A high-intensity fitness bootcamp for enthusiasts of all levels.",
+                    "location": "Sports Arena",
+                    "organizer": "FitPro"
+                },
+                {
+                    "name": "Soccer Tournament: Youth Cup",
+                    "start_date": "2024-03-11T08:00:00Z",
+                    "end_date": "2024-03-12T08:00:00Z",
+                    "priority": 2,
+                    "description": "An annual soccer tournament for young athletes.",
+                    "location": "Sports Complex",
+                    "organizer": "Youth Sports Federation"
+                }
+            ]
+        },
+        {
+            "name": "Business & Networking",
+            "events": [
+                {
+                    "name": "Entrepreneurship Summit",
+                    "start_date": "2024-03-13T08:00:00Z",
+                    "end_date": "2024-03-14T08:00:00Z",
+                    "priority": 1,
+                    "description": "A summit featuring successful entrepreneurs sharing insights and strategies.",
+                    "location": "Convention Center",
+                    "organizer": "Startup Hub"
+                },
+                {
+                    "name": "Networking Mixer: Industry Connect",
+                    "start_date": "2024-03-15T08:00:00Z",
+                    "end_date": "2024-03-16T08:00:00Z",
+                    "priority": 2,
+                    "description": "A networking event for professionals across various industries.",
+                    "location": "Hotel Lounge",
+                    "organizer": "Business Network Association"
+                }
+            ]
+        },
+        {
+            "name": "Health & Wellness",
+            "events": [
+                {
+                    "name": "Meditation Retreat",
+                    "start_date": "2024-03-17T08:00:00Z",
+                    "end_date": "2024-03-18T08:00:00Z",
+                    "priority": 1,
+                    "description": "A retreat focusing on mindfulness and meditation practices.",
+                    "location": "Nature Resort",
+                    "organizer": "Mindful Living Foundation"
+                },
+                {
+                    "name": "Nutrition Workshop: Healthy Eating Habits",
+                    "start_date": "2024-03-19T08:00:00Z",
+                    "end_date": "2024-03-20T08:00:00Z",
+                    "priority": 2,
+                    "description": "A workshop educating participants on maintaining a balanced diet.",
+                    "location": "Community Center",
+                    "organizer": "NutriFit"
+                }
+            ]
+        }
+    ]
+}

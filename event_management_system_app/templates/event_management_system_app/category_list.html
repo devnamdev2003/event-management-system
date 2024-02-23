@@ -11,12 +11,16 @@
     <!-- Message display section -->
 
     <div class="container mt-5">
-      <h2>Categories</h2>
+      <div class="text-center">
+        <h2>Categories</h2>
+      </div>
+      <br>
+
       <a href="{% url 'create_category' %}" class="btn btn-primary mb-3">Create Category</a> <!-- Button to create category -->
+      <a href="{% url 'event_chart' %}" class="btn btn-info mb-3">View Event Chart</a> <!-- Button to view event chart -->
       <table class="table">
         <thead>
           <tr>
-            <th>ID</th>
             <th>Name</th>
             <th>Actions</th> <!-- Column for actions -->
           </tr>
@@ -24,7 +28,6 @@
         <tbody>
           {% for category in categories %}
             <tr>
-              <td>{{ category.id }}</td>
               <td>
                 <a href="{% url 'category_events' category.id %}">{{ category.name }}</a>
               </td> <!-- Link to category_events page -->

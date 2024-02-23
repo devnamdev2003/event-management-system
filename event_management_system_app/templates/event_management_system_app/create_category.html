@@ -9,7 +9,8 @@
   </head>
   <body>
     <div class="container mt-5">
-      <h2>Create Category</h2>
+      <h2  class="text-center">Create Category</h2>
+      <br>
       <form method="post" action="{% url 'create_category' %}">
         {% csrf_token %}
         <div class="form-group">

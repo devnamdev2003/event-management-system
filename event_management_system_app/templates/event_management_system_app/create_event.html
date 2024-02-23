@@ -9,7 +9,8 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h2>Add Event</h2>
+        <h2  class="text-center">Add Event</h2>
+        <br>
         <form method="post" action="{% url 'create_event' %}" onsubmit="return validateForm()">
             {% csrf_token %}
             <div class="form-group">

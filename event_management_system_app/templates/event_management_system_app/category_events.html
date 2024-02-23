@@ -8,7 +8,8 @@
   </head>
   <body>
     <div class="container mt-5">
-      <h2>{{ category.name }} Events</h2>
+      <h2  class="text-center">{{ category.name }} Events</h2>
+      <br>
       <div class="mb-3">
         <a href="{% url 'create_event' %}" class="btn btn-primary">Add New Event</a> <!-- Button to add new event -->
         <a href="{% url 'category_list' %}" class="btn btn-secondary ml-2">Back to Categories</a> <!-- Button to go back to categories -->
